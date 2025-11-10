@@ -1,1 +1,54 @@
-# GusCrawler
+# GUSCrawler
+
+**GUSCrawler** is a high-performance, multi-agent asynchronous web crawler built in Python.  
+Designed for speed, efficiency, and massive scalability — no GPU required.
+
+---
+
+## 🚀 Features
+
+- Multi-agent asynchronous crawling
+- Smart URL deduplication
+- Dynamic target discovery
+- Customizable seed list
+- Built-in logging and stats tracking
+- Lightweight and resource-friendly
+
+---
+
+## 🧠 Tech Stack
+
+- **Language:** Python 3.x  
+- **Core:** `asyncio`, `aiohttp`, `beautifulsoup4`  
+- **Logging:** `rich` or `colorama` (optional for styled output)
+
+---
+
+## 📁 Structure
+
+gus_crawler/
+│
+├── main.py # entry point
+├── banner.py # GUS banner display
+├── agents/ # async crawling agents
+├── utils/ # helper modules (parser, URL cleaner, etc.)
+└── README.md
+
+
+---
+
+## ⚙️ Usage
+
+```bash
+python main.py --seeds seeds.txt --max-depth 3 --save output.txt
+```
+
+## 🧪 Example Output
+- [✅] Total URLs saved (including discovered links): 3383
+
+
+  ## 🐍 License
+
+GNU General Public License v3.0 (GPL-3.0) © 2025 Morse Dev  
+Free to use, modify, and distribute under the terms of the GPL-3.0.
+
