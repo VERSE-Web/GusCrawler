@@ -26,12 +26,12 @@ Designed for speed, efficiency, and massive scalability — no GPU required.
 
 ## 📁 Structure
 
-gus_crawler/
-│
-├── main.py # entry point
-├── banner.py # GUS banner display
-├── agents/ # async crawling agents
-├── utils/ # helper modules (parser, URL cleaner, etc.)
+gus_crawler/ <br>
+│ <br>
+├── main.py # entry point <br>
+├── banner.py # GUS banner display <br>
+├── agents/ # async crawling agents <br>
+├── utils/ # helper modules (parser, URL cleaner, etc.) <br>
 └── README.md
 
 
@@ -41,6 +41,10 @@ gus_crawler/
 
 ```bash
 python main.py --seeds seeds.txt --max-depth 3 --save output.txt
+```
+Or,
+```bash
+python main.py
 ```
 
 ## 🧪 Example Output
